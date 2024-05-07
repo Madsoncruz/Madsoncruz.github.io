@@ -2,19 +2,21 @@
 box-sizing: border-box;
 margin: 0;
 padding: 0;
+
 }
 .cabecalho{
 display: flex;
 justify-content: center;
 background: rgb(92, 28, 28);
 }
-.links{
-margin: 20px;
-}
+
 /*configurando a barra de navegação*/
 .links>a{
 margin: 100px;
 color: white;
+font-size: 20px;
+text-decoration: none;
+
 }
 /*configurando o display dos cards*/
 .container{
@@ -23,12 +25,14 @@ justify-content: center;
 background-image: url(./imagensCoffee/fundobackgroud.jpg);
 background-size: cover;
 background-repeat: no-repeat;
+padding: 40px;
+
 }
 /*configurnado dos cards*/
 .card{
 width: 300px;
 height: 450px;
-margin: 120px;
+margin: 5px;
 border-radius: 10px;
 background: rgb(92, 28, 28);
 }
@@ -48,13 +52,17 @@ text-align: center;
 margin-left: 100px;
 font-style: italic;
 font-size: 20px;
+text-decoration: none;
 }
 /*configurando o rodape*/
 .rodape{
 display: flex;
 justify-content: center;
-
-
+background: rgb(92, 28, 28);
+margin-bottom: 0;
+position: absolute;
+bottom: 0%;
+width: 100%;
 }
 .rod{
 width: 100%;
@@ -63,16 +71,17 @@ background: rgb(92, 28, 28);
 text-align: center;
 }
 .rod>img{
-width: 40px;
-height: 40px;
+width: 30px;
+height: 30px;
 margin: 0;
-margin-top: 5px;
+margin-top: 10px;
 
 }
+
 .contato>p{
 margin-left: 0;
 margin-top: 20px;
-font-size: 20px;
+font-size: 15px;
 text-align: start;
 color: white;
 }
